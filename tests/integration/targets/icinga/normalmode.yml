@@ -1,6 +1,0 @@
----
-- name: run tasks in check mode
-  hosts: localhost
-  tasks:
-    - include_role:
-        name: "icinga"

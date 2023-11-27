@@ -1,8 +1,0 @@
----
-- hosts: localhost
-  gather_facts: false
-  tasks:
-    - include_role:
-        name: tests/integration/targets/icinga/roles/icinga
-  collections:
-    - telekom_mms.icinga_director
