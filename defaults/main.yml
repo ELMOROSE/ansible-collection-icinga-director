@@ -1,0 +1,6 @@
+---
+# icinga_config
+icinga_config: {}
+
+# icinga deploy
+icinga_deploy_config: false

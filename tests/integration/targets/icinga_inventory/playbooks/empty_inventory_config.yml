@@ -1,9 +1,0 @@
----
-- hosts: localhost
-  connection: local
-  gather_facts: false
-  tasks:
-    - name: write inventory config file
-      copy:
-        dest: ../test.icinga_director_inventory.yaml
-        content: ""
